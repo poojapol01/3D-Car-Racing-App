@@ -15,7 +15,7 @@ E:/Unity Hub/Hub/Projects/3D Car Racing Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62406
+58084
 Successfully changed project path to: E:/Unity Hub/Hub/Projects/3D Car Racing Game
 E:/Unity Hub/Hub/Projects/3D Car Racing Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Unity Hub/Hub/Projects/3D Car Racing Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 311.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 298.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path E:/Unity Hub/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,96 +63,96 @@ Initialize mono
 Mono path[0] = 'E:/Unity Hub/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Hub/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity Hub/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Hub/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity Hub/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Unity Hub/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018222 seconds.
+Registered in 0.016951 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 292.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 316.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.495 seconds
+- Completed reload, in  2.852 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2496ms)
-		BeginReloadAssembly (277ms)
+	ReloadAssembly (2854ms)
+		BeginReloadAssembly (273ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1811ms)
-			LoadAssemblies (275ms)
+		EndReloadAssembly (2149ms)
+			LoadAssemblies (272ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (447ms)
+			SetupTypeCache (675ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (1083ms)
+			RebuildScriptCaches (176ms)
+			SetupLoadedEditorAssemblies (1042ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (301ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (293ms)
+				InitializePlatformSupportModulesInManaged (199ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (317ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (130ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (162ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012602 seconds.
+Registered in 0.016050 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity Hub\Hub\Projects\3D Car Racing Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity Hub\Hub\Projects\3D Car Racing Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  3.764 seconds
+- Completed reload, in  4.415 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3767ms)
-		BeginReloadAssembly (441ms)
+	ReloadAssembly (4418ms)
+		BeginReloadAssembly (666ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
+			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (160ms)
-		EndReloadAssembly (2934ms)
-			LoadAssemblies (245ms)
+			CreateAndSetChildDomain (195ms)
+		EndReloadAssembly (3343ms)
+			LoadAssemblies (391ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (844ms)
+			SetupTypeCache (1088ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (217ms)
-			SetupLoadedEditorAssemblies (1421ms)
+			RebuildScriptCaches (228ms)
+			SetupLoadedEditorAssemblies (1576ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
+				InitializePlatformSupportModulesInManaged (50ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (380ms)
-				ProcessInitializeOnLoadAttributes (850ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
+				BeforeProcessingInitializeOnLoad (310ms)
+				ProcessInitializeOnLoadAttributes (1087ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3503 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (87.8 KB). Loaded Objects now: 3948.
-Memory consumption went from 119.0 MB to 118.9 MB.
-Total: 8.176500 ms (FindLiveObjects: 0.477600 ms CreateObjectMapping: 0.604200 ms MarkObjects: 6.345400 ms  DeleteObjects: 0.744000 ms)
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (158.9 KB). Loaded Objects now: 4110.
+Memory consumption went from 152.8 MB to 152.7 MB.
+Total: 7.865200 ms (FindLiveObjects: 0.564500 ms CreateObjectMapping: 0.630000 ms MarkObjects: 6.417400 ms  DeleteObjects: 0.251900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,399 +164,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1646611.665724 seconds.
-  path: Assets/8FastCars/Prefabs/Lagoon.prefab
-  artifactKey: Guid(d46cef970ec36254fbf2c39700b2d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Prefabs/Lagoon.prefab using Guid(d46cef970ec36254fbf2c39700b2d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31de23d4ad555251764bb870893fd90c') in 0.762782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/8FastCars/Prefabs/Zegato.prefab
-  artifactKey: Guid(d21eef6e296d6334f8cfed59adb69499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Prefabs/Zegato.prefab using Guid(d21eef6e296d6334f8cfed59adb69499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f24a53d501a5bd00c6dc021e33bf876') in 0.071667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/8FastCars/Prefabs/Thunder.prefab
-  artifactKey: Guid(b06ddc9d4de8a1f4484b597ef0be67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Prefabs/Thunder.prefab using Guid(b06ddc9d4de8a1f4484b597ef0be67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec568253aef61e47df46f9df75f218ae') in 0.062982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/8FastCars/Prefabs/Caravan.prefab
-  artifactKey: Guid(64759c85c01942545951c0204e0d2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Prefabs/Caravan.prefab using Guid(64759c85c01942545951c0204e0d2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db95d612680291a7aa46860d744de57') in 0.059322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/8FastCars/Prefabs
-  artifactKey: Guid(fe8677e7ce0754c4bb0bbe433cc1696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Prefabs using Guid(fe8677e7ce0754c4bb0bbe433cc1696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d13c1f8df251ca0cb49515c9d3175e') in 0.017736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.762987 seconds.
-  path: Assets/8FastCars/Materials/Caravan_base.mat
-  artifactKey: Guid(e821f0f30c9fc8f459051743b56b399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_base.mat using Guid(e821f0f30c9fc8f459051743b56b399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2582bc68d3f97162d6e83243e7254953') in 0.193594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/8FastCars/Materials/Thunder_body.mat
-  artifactKey: Guid(4cffd1a11b7a88141b5808cd4d7b7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Thunder_body.mat using Guid(4cffd1a11b7a88141b5808cd4d7b7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff38a195305c81dc4885843c73c6e8bc') in 0.030201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/8FastCars/Materials/Megan_Plastic.mat
-  artifactKey: Guid(682426b7f6cd082499d70fae8d3f603c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_Plastic.mat using Guid(682426b7f6cd082499d70fae8d3f603c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43aa109fd1513d4861025686ec68c460') in 0.034198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/8FastCars/Materials/Fury_Mirrors.mat
-  artifactKey: Guid(84a1cfbe5d7e80e4281417e880c3d383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_Mirrors.mat using Guid(84a1cfbe5d7e80e4281417e880c3d383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ed62353ab2157658fac17ee0a787e6') in 0.030342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/8FastCars/Materials/CarShadow.mat
-  artifactKey: Guid(b6d2b0b95bd4f1f41bc92c122fed5278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/CarShadow.mat using Guid(b6d2b0b95bd4f1f41bc92c122fed5278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83db340d06328c8555425e636685a3fc') in 0.033679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/8FastCars/Materials/Diesel_lights.mat
-  artifactKey: Guid(247c6be7dd0e9b846997527f9747aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_lights.mat using Guid(247c6be7dd0e9b846997527f9747aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b697950ff1391b676f5094ad61e4c80') in 0.036801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/8FastCars/Materials/Stranger_detail.mat
-  artifactKey: Guid(2ea45f5a53e999640ab2ba0bcd3b790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_detail.mat using Guid(2ea45f5a53e999640ab2ba0bcd3b790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898dce34c347d6ea315723097c7e667b') in 0.030950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/8FastCars/Materials/Stranger_body.mat
-  artifactKey: Guid(c010a9635354dcf4ead6c5ca558ce981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_body.mat using Guid(c010a9635354dcf4ead6c5ca558ce981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f90abb799d27746a9b8a053beaeb5a7') in 0.030545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/8FastCars/Materials/Caravan_lights.mat
-  artifactKey: Guid(a5ccf0b3f3c30cb46bd3cda084fdb478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_lights.mat using Guid(a5ccf0b3f3c30cb46bd3cda084fdb478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1901b7d7e25b59f6a0b8de1d1441477') in 0.029255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/8FastCars/Materials/Fury_Wheel.mat
-  artifactKey: Guid(2ee690da7dd85bf4196f4658d070952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_Wheel.mat using Guid(2ee690da7dd85bf4196f4658d070952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd448233eff171f51be1be3e6908e0485') in 0.031055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_plastic.mat
-  artifactKey: Guid(67b3d9a829d42ef4692c7c98c38c5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_plastic.mat using Guid(67b3d9a829d42ef4692c7c98c38c5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d9e714bb00c0a473d3b005799ca331') in 0.033518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/8FastCars/Materials/Megan_CarPaint.mat
-  artifactKey: Guid(aacbba67b8beb3a4da730219fd0bd640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_CarPaint.mat using Guid(aacbba67b8beb3a4da730219fd0bd640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6eca41a2c11392bc276b3edb2a8876') in 0.036317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/8FastCars/Materials/Thunder_base.mat
-  artifactKey: Guid(30ff596171a94ee4cbf5dfa524e8afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Thunder_base.mat using Guid(30ff596171a94ee4cbf5dfa524e8afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad73741ca991060be8000addbb58a91') in 0.032310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/8FastCars/Materials/Megan_Mirror.mat
-  artifactKey: Guid(8994af8a10fec6a46af17f790dc7db80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_Mirror.mat using Guid(8994af8a10fec6a46af17f790dc7db80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585e6f741a7a4a5652ad9653edf95dbb') in 0.029633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/8FastCars/Materials/Diesel_base.mat
-  artifactKey: Guid(83c2f4bcef2b2564f838cb2d453c7ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_base.mat using Guid(83c2f4bcef2b2564f838cb2d453c7ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b993f5b992a07b84e1c9433e1d675f33') in 0.036850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/8FastCars/Materials/Megan_CarInterior.mat
-  artifactKey: Guid(0f5a54ed5f8bf7348ae2bf47f0391339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_CarInterior.mat using Guid(0f5a54ed5f8bf7348ae2bf47f0391339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff17f446ac186c3e5939e3ab74769860') in 0.031321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/8FastCars/Materials/Diesel_detail.mat
-  artifactKey: Guid(b3ae0f4f7a9d7944398294ed5341f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_detail.mat using Guid(b3ae0f4f7a9d7944398294ed5341f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052d75b22a9404cb55cc44e3a4f507a4') in 0.036521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_detail.mat
-  artifactKey: Guid(a5b6a502765f36143ba0f24f923dabe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_detail.mat using Guid(a5b6a502765f36143ba0f24f923dabe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616b5a7e225bd6f6a2a06719693aebae') in 0.033778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/8FastCars/Materials/Megan_WindowGlassBack.mat
-  artifactKey: Guid(b08d7e63d23ed7642bc849b4d8bf6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_WindowGlassBack.mat using Guid(b08d7e63d23ed7642bc849b4d8bf6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a136e4d1e003fc64eedc5044489ff84') in 0.029328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/8FastCars/Materials/Caravan_wheel.mat
-  artifactKey: Guid(4101b241a22635940ba4e8fd35b15d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_wheel.mat using Guid(4101b241a22635940ba4e8fd35b15d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88fd7a88634791fc7fff3e759248872') in 0.032088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/8FastCars/Materials/Fury_Chassis.mat
-  artifactKey: Guid(62ce7c249506eae4fbe1a38ad09a47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_Chassis.mat using Guid(62ce7c249506eae4fbe1a38ad09a47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9be47e684a6e0c66ef5a2f6dcfd0b4') in 0.031699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/8FastCars/Materials/Fury_CarDetail.mat
-  artifactKey: Guid(5cf410353f48f6549933517b28529b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_CarDetail.mat using Guid(5cf410353f48f6549933517b28529b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3508e8d03ba5a90aa707fe9aced394') in 0.037458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_lights_front.mat
-  artifactKey: Guid(47ee94bb23b2e5a49acabc0c75b97061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_lights_front.mat using Guid(47ee94bb23b2e5a49acabc0c75b97061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b9c542e97a916281ca324e4a729ccc') in 0.029660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/8FastCars/Materials/Caravan_body1.mat
-  artifactKey: Guid(512cd23c9382ee742aed258b425f6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_body1.mat using Guid(512cd23c9382ee742aed258b425f6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6f3bb57134bf869f4d465011c87a7f') in 0.036830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/8FastCars/Materials/Caravan_details.mat
-  artifactKey: Guid(49aacf3c66a94cf4c94b579451675db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_details.mat using Guid(49aacf3c66a94cf4c94b579451675db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1db6111e1d0e7cf6e91eaa4f7d923c') in 0.036427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/8FastCars/Materials/Megan_Tyre.mat
-  artifactKey: Guid(f91322d24934c5a4e805081266031a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_Tyre.mat using Guid(f91322d24934c5a4e805081266031a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc99a8102ac5d57e119e1ad1ebd599d') in 0.035080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_wheel.mat
-  artifactKey: Guid(48413377af475874393c916865f87755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_wheel.mat using Guid(48413377af475874393c916865f87755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c09cf319eca073619b0a101caa9eec') in 0.036161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/8FastCars/Materials/Thunder_chrome.mat
-  artifactKey: Guid(dd01780a8a95aae468266b57639661ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Thunder_chrome.mat using Guid(dd01780a8a95aae468266b57639661ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d18343868ebccc96be592e0aa41af3') in 0.033984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_glass.mat
-  artifactKey: Guid(b2fcc9a6fd05d66489cbc45e03141f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_glass.mat using Guid(b2fcc9a6fd05d66489cbc45e03141f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9659c17215c3958eb1a2ef3b6775dd') in 0.035465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/8FastCars/Materials/Stranger_lights.mat
-  artifactKey: Guid(502a4b2ffb7f478499fbd21c5db63fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_lights.mat using Guid(502a4b2ffb7f478499fbd21c5db63fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c2599388117d0b15dd3957457879d0') in 0.034778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.529604 seconds.
-  path: Assets/8FastCars/Materials/Caravan_base.mat
-  artifactKey: Guid(e821f0f30c9fc8f459051743b56b399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_base.mat using Guid(e821f0f30c9fc8f459051743b56b399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca6f3f8198478ffa30ba6afb3aeab90') in 2.464258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/8FastCars/Materials/Thunder_body.mat
-  artifactKey: Guid(4cffd1a11b7a88141b5808cd4d7b7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Thunder_body.mat using Guid(4cffd1a11b7a88141b5808cd4d7b7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167b7039f2b32797f3de732955ad138e') in 0.037082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/8FastCars/Materials/Fury_Pipes.mat
-  artifactKey: Guid(5b96c7ead6c61554a9c30c5805f98ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_Pipes.mat using Guid(5b96c7ead6c61554a9c30c5805f98ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781043170714d99c593a3ea24340b42a') in 0.033882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/8FastCars/Materials/Stranger_tyre.mat
-  artifactKey: Guid(8319026dcebdadf468ffcdf7b3028666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_tyre.mat using Guid(8319026dcebdadf468ffcdf7b3028666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f815c91d433118aa8bdabeac26deaffb') in 0.041245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/8FastCars/Materials/Caravan_interior.mat
-  artifactKey: Guid(3aac017442b5c764a9a38d880567b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_interior.mat using Guid(3aac017442b5c764a9a38d880567b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92749ef3b797107ecfd41c2f8299746') in 0.031673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/8FastCars/Materials/Fury_CarInterior.mat
-  artifactKey: Guid(7199dd6e744f5cb43afa1d18e849d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_CarInterior.mat using Guid(7199dd6e744f5cb43afa1d18e849d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897c72d857398edca911b289424f61e3') in 0.036216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/8FastCars/Materials/Fury_WindowGlass.mat
-  artifactKey: Guid(dda3926168206704eb840bf2890a940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_WindowGlass.mat using Guid(dda3926168206704eb840bf2890a940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa87159c4b21bbb23313e704a93cd2b9') in 0.030377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_body.mat
-  artifactKey: Guid(b7fa22cc8688d4042afbd0dda0d6442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_body.mat using Guid(b7fa22cc8688d4042afbd0dda0d6442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f262e08a128fbc36a949d605344f5350') in 0.036285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/8FastCars/Materials/Stranger_body.mat
-  artifactKey: Guid(c010a9635354dcf4ead6c5ca558ce981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_body.mat using Guid(c010a9635354dcf4ead6c5ca558ce981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7239037f3520a6845f779faaf07c3d8') in 0.034677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/8FastCars/Materials/Diesel_tyre.mat
-  artifactKey: Guid(911791e657a31c24aba3f8c8d99e1a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_tyre.mat using Guid(911791e657a31c24aba3f8c8d99e1a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af027c6565168391a5da08511da28a1b') in 0.032692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/8FastCars/Materials/Fury_LightsFront.mat
-  artifactKey: Guid(c40c1c7189c227645bcd7e73f51c04d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_LightsFront.mat using Guid(c40c1c7189c227645bcd7e73f51c04d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5d7cff711b68dc24702ed29978964b') in 0.029528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/8FastCars/Materials/Stranger_glass.mat
-  artifactKey: Guid(e60064e1bb9692942800a68f76ea62c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_glass.mat using Guid(e60064e1bb9692942800a68f76ea62c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82313d606bb6cbf69682058f4269277') in 0.043269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/8FastCars/Materials/Stranger_base.mat
-  artifactKey: Guid(0300f846bd356f646939b5cc59dfb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_base.mat using Guid(0300f846bd356f646939b5cc59dfb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f88490c4655271b8c58476cfe1db322') in 0.030226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/8FastCars/Materials/Caravan_tyre.mat
-  artifactKey: Guid(70367f077dd88cc4cabf9e09855a2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_tyre.mat using Guid(70367f077dd88cc4cabf9e09855a2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a9dc597b0ea8f82737b445fce8ba0a') in 0.030463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/8FastCars/Materials/Megan_Chassis.mat
-  artifactKey: Guid(30ac7d7d5c3347447a7f45d8d5eed575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_Chassis.mat using Guid(30ac7d7d5c3347447a7f45d8d5eed575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d200a7851ee7d2a9f7a6ca57ebaa93f') in 0.033969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/8FastCars/Materials/Fury_Tyre.mat
-  artifactKey: Guid(737ecd7c66323864fb878884ed9937a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_Tyre.mat using Guid(737ecd7c66323864fb878884ed9937a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4666d36eb40fe4ee95964a49c44c4a') in 0.037861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/8FastCars/Materials/Caravan_glass.mat
-  artifactKey: Guid(7bd2e196a9ecb5c4cb5f19284926ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Caravan_glass.mat using Guid(7bd2e196a9ecb5c4cb5f19284926ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9e959fc99742d27ea3a8f51c334ae1') in 0.028339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_interior.mat
-  artifactKey: Guid(c511b82c0226b6d4fb8c5cb98943e93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_interior.mat using Guid(c511b82c0226b6d4fb8c5cb98943e93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505c27fc54627e038e3e36a7dd6f2124') in 0.039519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/8FastCars/Materials/Diesel_wheel.mat
-  artifactKey: Guid(f977f772ccffee0438bca2ea37183bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_wheel.mat using Guid(f977f772ccffee0438bca2ea37183bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e44e3af6fe38146c0d4419321e2a7f') in 0.028557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_lights_back.mat
-  artifactKey: Guid(f9ff04821f555d54db51df8c4100f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_lights_back.mat using Guid(f9ff04821f555d54db51df8c4100f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd667c3581c5542fc2c518a40fe230a30') in 0.038529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/8FastCars/Materials/Diesel_chrome.mat
-  artifactKey: Guid(e1f2d779f543935468efa274e5583a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_chrome.mat using Guid(e1f2d779f543935468efa274e5583a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11214e8100ae9e9121e78f028f7c1af') in 0.029202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/8FastCars/Materials/Megan_WindowGlassFront.mat
-  artifactKey: Guid(91b0b3a9fc2174d49b2cb36ff8961c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_WindowGlassFront.mat using Guid(91b0b3a9fc2174d49b2cb36ff8961c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf8424a82cd5b136119203fcb066d28') in 0.046424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/8FastCars/Materials/Fury_Carpaint.mat
-  artifactKey: Guid(5bec07ea7619a754faa851a28c63e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Fury_Carpaint.mat using Guid(5bec07ea7619a754faa851a28c63e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cec4d914c5551080f76724c5c77e155') in 0.040547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/8FastCars/Materials/Megan_Wheel.mat
-  artifactKey: Guid(03c531ca4323072439cf7097df1a4256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_Wheel.mat using Guid(03c531ca4323072439cf7097df1a4256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7031ae94e3047ac8baa644e3733a073e') in 0.044198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/8FastCars/Materials/Stranger_plastic.mat
-  artifactKey: Guid(480bb5e08a29291478beaf746c7c233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_plastic.mat using Guid(480bb5e08a29291478beaf746c7c233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7fb67f608c6e51cf272744ec63be57') in 0.036733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/8FastCars/Materials/Diesel_body.mat
-  artifactKey: Guid(d17bb651138c5ef4ca93dfc8726521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_body.mat using Guid(d17bb651138c5ef4ca93dfc8726521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6442af1210354cbd1ddc46d89b6707d2') in 0.042661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/8FastCars/Materials/Diesel_interior.mat
-  artifactKey: Guid(8ad72454bed1f134fa178fe77cdb2b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_interior.mat using Guid(8ad72454bed1f134fa178fe77cdb2b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bd9a4750134587ae8cb038de6928b5') in 0.037303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/8FastCars/Materials/Stranger_wheel.mat
-  artifactKey: Guid(d7fd7a9c95151204d83eeb99853ae613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Stranger_wheel.mat using Guid(d7fd7a9c95151204d83eeb99853ae613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3932d3934843f0ac40b4718e4aa0d5b4') in 0.042636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/8FastCars/Materials/Megan_CarLights.mat
-  artifactKey: Guid(c04663378e9a3ec41bcac438723a8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Megan_CarLights.mat using Guid(c04663378e9a3ec41bcac438723a8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e1ff6de25f2789182fea4df2fe935e') in 0.046066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/8FastCars/Materials/Lagoon_tyre.mat
-  artifactKey: Guid(4c3c8e5339d780b429639432c786ede1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Lagoon_tyre.mat using Guid(4c3c8e5339d780b429639432c786ede1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8114047e15e584fd1cd4883534ad24') in 0.035646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/8FastCars/Materials/Diesel_glass.mat
-  artifactKey: Guid(8dc56ef40340e404cab9c928745ff58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8FastCars/Materials/Diesel_glass.mat using Guid(8dc56ef40340e404cab9c928745ff58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431250bd2e690373f8dcb38c9f6df50a') in 0.039927 seconds 
