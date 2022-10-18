@@ -25,12 +25,14 @@ public class PlayerCarControllerScript : MonoBehaviour
     private void Update(){
         MoveCar();
     }
-    
+
     private void MoveCar()
     {
-        //Front Wheels Drive
+        //All Wheels Drive
         frontLeftWheelCollider.motorTorque = presentAcceleration;
         frontRightWheelCollider.motorTorque = presentAcceleration;
+        rearLeftWheelCollider.motorTorque = presentAcceleration;
+		rearRightWheelCollider.motorTorque = presentAcceleration;
         
         presentAcceleration = accelerationForce * Input.GetAxis("Vertical");
     }
