@@ -297,7 +297,7 @@ WheelCollider:
     spring: 100000
     damper: 2000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.01
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1254,8 +1254,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.1600885, y: 0.63475984, z: 3.6131644}
-  m_Center: {x: 0.02580285, y: 1.0958718, z: 0.282048}
+  m_Size: {x: 2.1600885, y: 0.92, z: 3.6131644}
+  m_Center: {x: -0.04, y: 0.86, z: 0.282048}
 --- !u!54 &1005935175
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1294,6 +1294,7 @@ MonoBehaviour:
   rearRightWheelTransform: {fileID: 1005673591}
   accelerationForce: 300
   breakingForce: 300
+  wheelsTorque: 35
 --- !u!1 &1005938385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,7 +1502,7 @@ WheelCollider:
     spring: 100000
     damper: 2000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.01
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1596,7 +1597,7 @@ WheelCollider:
     spring: 100000
     damper: 2000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.01
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1658,7 +1659,7 @@ WheelCollider:
     spring: 100000
     damper: 2000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.01
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
