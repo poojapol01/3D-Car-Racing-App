@@ -22,8 +22,13 @@ public class PlayerCarControllerScript : MonoBehaviour
     private float presentBreakForce = 0f;
     private float presentAcceleration = 0f;
 
+    [Header("Car Steering")]
+	public float wheelsTorque = 35f;
+	private float presentTurnAngle = 0f;
+
     private void Update(){
         MoveCar();
+        CarSteering();
     }
 
     private void MoveCar()
@@ -36,5 +41,12 @@ public class PlayerCarControllerScript : MonoBehaviour
         
         presentAcceleration = accelerationForce * Input.GetAxis("Vertical");
     }
+
+    private void CarSteering(){
+		presentTurnAngle = wheelsTorque * Input.GetAxis("Horizontal");
+		
+		frontLeftWheelCollider.steerAngle = presentTurnAngle;
+		frontRightWheelCollider.steerAngle = presentTurnAngle;
+	}
 
 }
