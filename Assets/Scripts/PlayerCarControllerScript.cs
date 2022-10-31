@@ -47,6 +47,20 @@ public class PlayerCarControllerScript : MonoBehaviour
 		
 		frontLeftWheelCollider.steerAngle = presentTurnAngle;
 		frontRightWheelCollider.steerAngle = presentTurnAngle;
+
+        SteeringWheels(frontLeftWheelCollider, frontLeftWheelTransform);
+		SteeringWheels(frontRightWheelCollider, frontRightWheelTransform);
+		SteeringWheels(rearLeftWheelCollider, rearLeftWheelTransform);
+		SteeringWheels(rearRightWheelCollider, rearRightWheelTransform);
 	}
 
+    private void SteeringWheels(WheelCollider wCollider, Transform wTransform){
+		Vector3 position;
+		Quaternion rotation;
+		
+		wCollider.GetWorldPose(out position, out rotation);
+		
+		wTransform.position = position;
+		wTransform.rotation = rotation;
+	}
 }
