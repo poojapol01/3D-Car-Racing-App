@@ -29,8 +29,10 @@ public class PlayerCarControllerScript : MonoBehaviour
     private void Update(){
         MoveCar();
         CarSteering();
+        ApplyBreak();
     }
 
+    //Added Car Movement of wheels
     private void MoveCar()
     {
         //All Wheels Drive
@@ -42,6 +44,7 @@ public class PlayerCarControllerScript : MonoBehaviour
         presentAcceleration = accelerationForce * Input.GetAxis("Vertical");
     }
 
+    //Steering System of the Car
     private void CarSteering(){
 		presentTurnAngle = wheelsTorque * Input.GetAxis("Horizontal");
 		
@@ -54,6 +57,7 @@ public class PlayerCarControllerScript : MonoBehaviour
 		SteeringWheels(rearRightWheelCollider, rearRightWheelTransform);
 	}
 
+    //Car wheel rotation with animation
     private void SteeringWheels(WheelCollider wCollider, Transform wTransform){
 		Vector3 position;
 		Quaternion rotation;
@@ -62,5 +66,19 @@ public class PlayerCarControllerScript : MonoBehaviour
 		
 		wTransform.position = position;
 		wTransform.rotation = rotation;
+	}
+
+    //Applying Break system to the wheels
+	private void ApplyBreak(){
+		if(Input.GetKey(KeyCode.Space))
+			presentBreakForce = breakingForce;
+		
+		else
+			presentBreakForce = 0f;
+			
+		frontLeftWheelCollider.brakeTorque = presentBreakForce;
+		frontRightWheelCollider.brakeTorque = presentBreakForce;
+		rearLeftWheelCollider.brakeTorque = presentBreakForce;
+		rearRightWheelCollider.brakeTorque = presentBreakForce;
 	}
 }
